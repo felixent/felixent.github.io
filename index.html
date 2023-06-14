@@ -6,6 +6,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<!-- Favicons -->
+<link href="images/logo/favicon_fe.ico" rel="icon">
+<link href="images/logo/favicon512x512.jpg" rel="felix-logo">
 <style>
 body, html {
   height: 100%;
@@ -50,7 +54,7 @@ body, html {
     <span class="w3-tag">Open from 6am to 5pm</span>
   </div>
   <div class="w3-display-middle w3-center">
-    <span class="w3-text-white" style="font-size:90px">the<br>Cafe</span>
+    <span class="w3-text-white" style="font-size:90px">the<br>Office</span>
   </div>
   <div class="w3-display-bottomright w3-center w3-padding-large">
     <span class="w3-text-white">No.3 Main Road, 11010</span>
@@ -63,15 +67,15 @@ body, html {
 <!-- About Container -->
 <div class="w3-container" id="about">
   <div class="w3-content" style="max-width:700px">
-    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT THE FELIXENT</span></h5>
-    <p>The Felixent was founded in blabla by Mr. Chim in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <p>to build sustainable IT capabilities able to support business plans. </p>
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT US</span></h5>
+    <p>The Felixent was founded in YGN by Mr. Chim in 2019, MM, Every organization, regardless of size, needs someone in charge of IT. Hiring a Felixent’s CIO to lead your strategic technology efforts helps you get the most from your investments. CIO responsibilities often include managing IT staff, vendors, budgets, and assets; designing IT processes, standards, sourcing, and procurement; providing knowledge specific to the association and nonprofit industry; enhancing application-specific knowledge; and representing the organization’s technology interest at the executive/boardlevel.</p>
+    <p>Scope: To build sustainable IT capabilities able to support business plans. </p>
     <div class="w3-panel w3-leftbar w3-light-grey">
       <p><i>"Diagnosing and troubleshooting IT operational inefficiencies (in supply chain management, procurement, manufacturing, service operations, ITSM, etc.). </i></p>
       <p>Analyzing current hardware, software and third-party service providers, providing comparison analysis with alternatives. </p>
     </div>
-    <img src="/w3images/office.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
-    <p><strong>Opening hours:</strong> everyday from 6am to 5pm.</p>
+    <img src="/images/logo/favicon512x512.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p><strong>Opening hours:</strong> everyday from 9am to 3pm.</p>
     <p><strong>Address:</strong> No.3 Main Road, 11010, MM</p>
   </div>
 </div>
@@ -80,51 +84,54 @@ body, html {
 <div class="w3-container" id="menu">
   <div class="w3-content" style="max-width:700px">
  
-    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">THE MENU</span></h5>
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">What We Do?</span></h5>
   
     <div class="w3-row w3-center w3-card w3-padding">
-      <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
-        <div class="w3-col s6 tablink">Eat</div>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Services');" id="myLink">
+        <div class="w3-col s6 tablink">Our Services</div>
       </a>
-      <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
-        <div class="w3-col s6 tablink">Drink</div>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Products');">
+        <div class="w3-col s6 tablink">OUR PRODUCTS</div>
       </a>
     </div>
 
-    <div id="Eat" class="w3-container menu w3-padding-48 w3-card">
-      <h5>Bread Basket</h5>
-      <p class="w3-text-grey">Assortment of fresh baked fruit breads and muffins 5.50</p><br>
+    <div id="Services" class="w3-container menu w3-padding-48 w3-card">
+      <h5>IT CONSULTING</h5>
+      <p class="w3-text-grey">CIO consulting</p>
+      <p class="w3-text-grey">Project Management</p>
+      <p class="w3-text-grey">Recruiting experts and you the best IT professionals.</p><br>
     
-      <h5>Honey Almond Granola with Fruits</h5>
-      <p class="w3-text-grey">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p><br>
+      <h5>IT INFRASTRUCTURE</h5>
+      <p class="w3-text-grey">Database development & migration</p>
+      <p class="w3-text-grey">Disaster recovery & Security planning </p>
+      <p class="w3-text-grey">Network design & build Virtual server environment.</p><br>
     
-      <h5>Belgian Waffle</h5>
-      <p class="w3-text-grey">Vanilla flavored batter with malted flour 7.50</p><br>
+      <h5>WEB DEVELOPMENT</h5>
+      <p class="w3-text-grey">Website Audit</p>
+      <p class="w3-text-grey">Website Design</p>
+      <p class="w3-text-grey">Web Application Development</p>
+      <p class="w3-text-grey">(E-Commerce, SEO, Site Map, etc.)</p><br>
     
-      <h5>Scrambled eggs</h5>
-      <p class="w3-text-grey">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br>
-    
-      <h5>Blueberry Pancakes</h5>
-      <p class="w3-text-grey">With syrup, butter and lots of berries 8.50</p>
+      <h5>MANAGED SERVICES</h5>
+      <p class="w3-text-grey">24/7/365 Help-desk support & network monitoring</p>
+      <p class="w3-text-grey">Fully outsourced or “co-managed”</p>
+      <p class="w3-text-grey">Cloud-services</p>
+      <p class="w3-text-grey">Grow-as-you-go</p>
+      <p class="w3-text-grey">IT procurement.</p>
     </div>
 
-    <div id="Drinks" class="w3-container menu w3-padding-48 w3-card">
-      <h5>Coffee</h5>
-      <p class="w3-text-grey">Regular coffee 2.50</p><br>
+    <div id="Products" class="w3-container menu w3-padding-48 w3-card">
+      <h5>OpenSourcePOS Systems</h5>
+      <p class="w3-text-grey">For small shop/marts.</p><br>
     
-      <h5>Chocolato</h5>
-      <p class="w3-text-grey">Chocolate espresso with milk 4.50</p><br>
+      <h5>Odoo (Opensource ERP/CRM)</h5>
+      <p class="w3-text-grey">Odoo is a suite of open source business apps that cover all your company needs: CRM, eCommerce, accounting, inventory, point of sale, project management, etc</p><br>
     
-      <h5>Corretto</h5>
-      <p class="w3-text-grey">Whiskey and coffee 5.00</p><br>
-    
-      <h5>Iced tea</h5>
-      <p class="w3-text-grey">Hot tea, except not hot 3.00</p><br>
-    
-      <h5>Soda</h5>
-      <p class="w3-text-grey">Coke, Sprite, Fanta, etc. 2.50</p>
+      <h5>Microsoft Dynamics 365 (CRM/ERP)</h5>
+      <p class="w3-text-grey">also known as Microsoft Dynamics CRM, is a customer relationship management software tool made by Microsoft that offers more extensive features than a standard CRM. </p>
+      <p class="w3-text-grey">The departments use Microsoft CRM Dynamics 365 Customer service | Marketing and sales | Finance | IT department | HR department</p>
     </div>  
-    <img src="/w3images/coffeehouse2.jpg" style="width:100%;max-width:1000px;margin-top:32px;">
+    <img src="/images/logo/favicon512x512.jpg" style="width:100%;max-width:1000px;margin-top:32px;">
   </div>
 </div>
 
@@ -133,9 +140,9 @@ body, html {
   <div class="w3-content" style="max-width:700px">
     <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">WHERE TO FIND US</span></h5>
     <p>Find us at some address at some place.</p>
-    <img src="/w3images/map.jpg" class="w3-image" style="width:100%">
-    <p><span class="w3-tag">FYI!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
-    <p><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
+    <img src="/images/maps.jpg" class="w3-image" style="width:100%">
+    <p><span class="w3-tag">FYI!</span> We offer full-service catering for any org-size, large or small.</p>
+    <p><strong>Reserve</strong> an appoint, ask for today's special or just send us a message:</p>
     <form action="/action_page.php" target="_blank">
       <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
       <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="How many people" required name="People"></p>
@@ -151,7 +158,7 @@ body, html {
 
 <!-- Footer -->
 <footer class="w3-center w3-light-grey w3-padding-48 w3-large">
-  <p>Powered by <a href="https://rss.com/podcasts/felixent/" title="FELIXENT" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <p>Powered by <a href="https://rss.com/podcasts/felixent/" title="FELIXENT" target="_blank" class="w3-hover-text-green">Felixent</a></p>
 </footer>
 
 <script>
